@@ -1,4 +1,4 @@
-package uiTests;
+package BoniGarsiaTests;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -15,7 +15,6 @@ public class BoniGarsiaTests {
     void setup() {
         driver = new ChromeDriver();
     }
-
 
 @Test
     void openHomePageTest () {
