@@ -16,7 +16,6 @@ public class BoniGarsiaTests {
         driver = new ChromeDriver();
     }
 
-
 @Test
     void openHomePageTest () {
     driver.get(BASE_URL);
