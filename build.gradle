@@ -29,7 +29,6 @@ tasks.register('smokeTest', Test) {
     }
 }
 
-
 tasks.register('noDefectsTest', Test) {
     useJUnitPlatform() {
         includeTags 'smoke'
